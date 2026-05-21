@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background">
+        <h1 class="titre">Formulaire de contact</h1>
+        <div class="bloc">
+            <form action="">
+            <label for="name">Votre Pseudo *</label>
+            <input type="text" id="name" name="name" placeholder="Votre pseudo" required minlength="4" maxlength="8"
+                size="50" />
+            <label for="mdp">Votre Mot de passe *</label>
+            <input type="password" id="mdp" name="mdp" placeholder="Votre mot de passe" required minlength="4"
+                maxlength="8" size="50" />
+            <label for="e-mail">Votre e-mail *</label>
+            <input type="text" id="e-mail" name="e-mail" placeholder="Votre adresse e-mail" required minlength="4"
+                maxlength="8" size="50" />
+            <div class="objet">
+                <label for="monselect">Objet du message *</label>
+                <select class="taillecase" id="monselect">
+                    <option value="valeur1">J'ai une question</option>
+                    <option value="valeur2" selected>Je fais une suggestion</option>
+                    <option value="valeur3">Je rencontre un problème</option>
+                    <option value="valeur3">Autre</option>
+                </select>
+            </div>
+            <br>
+            <div></div>
+            <label for="story">Votre message *</label>
+            <textarea class="messcase" id="story" name="story" rows="5" cols="33" placeholder="Votre message"></textarea>
+            </textarea>
+            <p>
+                Niveau d'urgence *
+            </p>
+            <div class="Niv-Urge">
+                <input type="radio" id="Urgent" name="bouton" />
+                <label for="Urgent">Urgent</label>
+                <input type="radio" id="Normal" name="bouton" />
+                <label for="Normal">Normal</label>
+                <input type="radio" id="lent" name="bouton" checked />
+                <label for="lent">Lent</label>
+            </div>
+            <br>
+            <div class="conditions">
+                <input type="checkbox" id="conditions" name="conditions" />
+                <label for="conditions">J'ai lu et j'accepte la <a href="">politique de confidentialité</a> du
+                    site.</label>
+
+                <input type="submit" value="Envoyer" />
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

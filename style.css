@@ -1,0 +1,80 @@
+.background {
+    background-color: rgb(77, 83, 83);
+    height: 1000px;
+}
+
+.titre {
+    color: aliceblue;
+
+}
+
+.taillecase {
+    width: 98%;
+}
+
+.messcase {
+    width: 96%;
+}
+
+.bloc {
+    margin: auto;
+    padding: 0%;
+    max-width: 600px;
+    height: 620px;
+    box-sizing: border-box;
+    color: #000000;
+    text-align: justify;
+    background-color: rgb(217, 224, 224);
+}
+
+.bloc-back {
+    background-color: #cca7a7;
+}
+
+label {
+    display: block;
+    font:
+        1rem "Fira Sans",
+        sans-serif;
+}
+
+.conditions {
+    text-align: center;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}
+input {
+    width: 98%;
+}
+
+.titre {
+    text-align: center;
+}
+
+.label,
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-shadow: 1px 1px 1px #999999;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+.Niv-Urge {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
